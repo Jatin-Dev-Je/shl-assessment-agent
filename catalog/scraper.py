@@ -19,16 +19,21 @@ from __future__ import annotations
 
 import json
 import random
+import sys
 import time
 from pathlib import Path
 from typing import Any
+
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from playwright.sync_api import Page, sync_playwright
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 BASE_URL = "https://www.shl.com"
 CATALOG_URL = f"{BASE_URL}/solutions/products/product-catalog/"
-OUTPUT_PATH = Path("catalog/catalog.json")
+OUTPUT_PATH = Path(__file__).resolve().parents[1] / "catalog" / "catalog.json"
 PAGE_SIZE = 12
 MAX_PAGES = 40
 DETAIL_DELAY = 1.5

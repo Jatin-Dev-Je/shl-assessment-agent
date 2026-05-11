@@ -21,6 +21,7 @@ from __future__ import annotations
 import json
 import threading
 from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
 import google.generativeai as genai
@@ -36,6 +37,14 @@ logger = get_logger(__name__)
 # ── Constants ─────────────────────────────────────────────────────────────────
 CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 EMBEDDING_MODEL = "models/gemini-embedding-2"   # must match build_index.py
+
+
+def _artifact_path(path_str: str) -> Path:
+    """Resolve runtime artifact paths deterministically from the repo root."""
+    path = Path(path_str)
+    if path.is_absolute():
+        return path
+    return Path(__file__).resolve().parents[1] / path
 
 
 # ── CrossEncoder cache state ─────────────────────────────────────────────────
@@ -85,15 +94,22 @@ def _warm_cross_encoder_async() -> None:
 @lru_cache(maxsize=1)
 def _load_lancedb_table() -> lancedb.table.Table:
     """Connect to LanceDB and return table. Cached after first call."""
+    lancedb_path = _artifact_path(settings.LANCEDB_PATH)
     logger.info(
         "Connecting to LanceDB",
-        extra={"path": settings.LANCEDB_PATH, "table": settings.LANCEDB_TABLE},
+        extra={"path": str(lancedb_path), "table": settings.LANCEDB_TABLE},
     )
-    db = lancedb.connect(settings.LANCEDB_PATH)
+    if not lancedb_path.exists():
+        raise RuntimeError(
+            f"LanceDB path not found: {lancedb_path}. "
+            "Build the index locally with: python catalog/build_index.py"
+        )
+
+    db = lancedb.connect(str(lancedb_path))
     if settings.LANCEDB_TABLE not in db.table_names():
         raise RuntimeError(
-            f"LanceDB table '{settings.LANCEDB_TABLE}' not found. "
-            "Run: make build-index"
+            f"LanceDB table '{settings.LANCEDB_TABLE}' not found in {lancedb_path}. "
+            "Build the index locally with: python catalog/build_index.py"
         )
     return db.open_table(settings.LANCEDB_TABLE)
 

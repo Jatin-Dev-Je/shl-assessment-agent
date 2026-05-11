@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+PROJECT_ROOT = Path(__file__).resolve().parent
 
 class Settings(BaseSettings):
 	model_config = SettingsConfigDict(
@@ -26,9 +30,9 @@ class Settings(BaseSettings):
 	GROQ_MODEL: str = "llama-3.3-70b-versatile"
 
 	# ── Retrieval ─────────────────────────────────────────────────────────────
-	LANCEDB_PATH: str = "lancedb_index"
+	LANCEDB_PATH: str = str(PROJECT_ROOT / "lancedb_index")
 	LANCEDB_TABLE: str = "shl_assessments"
-	CATALOG_PATH: str = "catalog/catalog.json"
+	CATALOG_PATH: str = str(PROJECT_ROOT / "catalog" / "catalog.json")
 	TOP_K_RETRIEVE: int = 20
 	TOP_K_RERANK: int = 10
 

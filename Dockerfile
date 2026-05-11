@@ -25,10 +25,11 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY . .
 
 # ── Ensure catalog and index exist ────────────────────────────────────────────
-# catalog.json and lancedb_index/ are committed to repo
-# so they are available at build time — no runtime scraping needed
-RUN test -f catalog/catalog.json || (echo "ERROR: catalog/catalog.json missing. Run: make scrape" && exit 1)
-RUN test -d lancedb_index || mkdir -p lancedb_index
+# catalog.json and lancedb_index/ are committed to repo.
+# Verify the table exists at image build time so deploys fail fast if artifacts
+# are missing or incomplete.
+RUN test -f catalog/catalog.json || (echo "ERROR: catalog/catalog.json missing. Run: python catalog/scraper.py" && exit 1)
+RUN python -c "from agent.retriever import _load_lancedb_table; _load_lancedb_table(); print('LanceDB table verified')"
 
 # ── Create logs directory ─────────────────────────────────────────────────────
 RUN mkdir -p logs

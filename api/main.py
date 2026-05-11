@@ -22,13 +22,11 @@ logger = get_logger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("Starting up SHL Assessment Recommender")
-    try:
-        get_orchestrator()
-        from agent.retriever import _load_lancedb_table
-        _load_lancedb_table()
-        logger.info("Startup complete — LanceDB loaded; CrossEncoder will warm on first use")
-    except Exception as e:
-        logger.error("Startup warning", extra={"error": str(e)})
+    get_orchestrator()
+    from agent.retriever import _load_lancedb_table
+
+    _load_lancedb_table()
+    logger.info("Startup complete — LanceDB loaded; CrossEncoder will warm on first use")
     yield
     logger.info("Shutting down SHL Assessment Recommender")
 

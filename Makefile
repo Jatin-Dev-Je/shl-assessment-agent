@@ -4,10 +4,10 @@ install:
 	pip install -r requirements.txt
 
 scrape:
-	python catalog/scraper.py
+	python -m catalog.scraper
 
 build-index:
-	python catalog/build_index.py
+	python -m catalog.build_index
 
 run:
 	uvicorn api.main:app --host 0.0.0.0 --port 8000
@@ -19,7 +19,7 @@ test:
 	pytest tests/ -v
 
 eval:
-	python eval/harness.py
+	python -m eval.harness
 
 probes:
-	python eval/harness.py probes
+	python -m eval.harness probes

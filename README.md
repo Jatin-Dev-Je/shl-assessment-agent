@@ -20,9 +20,9 @@ Conversational SHL assessment recommender built with FastAPI, LanceDB, Gemini em
 
 - API: `uvicorn api.main:app --host 0.0.0.0 --port 8000`
 - Tests: `pytest -q`
-- Scrape catalog: `python catalog/scraper.py`
-- Build index: `python catalog/build_index.py`
-- Evaluation: `python eval/harness.py`
+- Scrape catalog: `python -m catalog.scraper`
+- Build index: `python -m catalog.build_index`
+- Evaluation: `python -m eval.harness`
 
 ## Notes
 

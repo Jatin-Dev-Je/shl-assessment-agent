@@ -4,7 +4,6 @@ __pycache__/
 .venv/
 node_modules/
 *.lancedb/
-lancedb_index/
 *.egg-info/
 dist/
 .DS_Store

@@ -42,7 +42,7 @@ from logging_config import get_logger
 logger = get_logger(__name__)
 
 # ── Constants ─────────────────────────────────────────────────────────────────
-TRACES_DIR = Path("eval/traces")
+TRACES_DIR = Path(__file__).resolve().parents[1] / "eval" / "traces"
 API_BASE_URL = "http://localhost:8000"
 HEALTH_URL = f"{API_BASE_URL}/health"
 CHAT_URL = f"{API_BASE_URL}/chat"

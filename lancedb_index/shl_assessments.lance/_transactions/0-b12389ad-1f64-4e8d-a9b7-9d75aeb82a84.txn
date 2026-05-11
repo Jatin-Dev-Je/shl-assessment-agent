@@ -1,0 +1,4 @@
+$b12389ad-1f64-4e8d-a9b7-9d75aeb82a84²Çid ÿÿÿÿÿÿÿÿÿ*int3208name ÿÿÿÿÿÿÿÿÿ*string08url ÿÿÿÿÿÿÿÿÿ*string08$	test_type ÿÿÿÿÿÿÿÿÿ*string08&description ÿÿÿÿÿÿÿÿÿ*string08%
+job_levels ÿÿÿÿÿÿÿÿÿ*string08$	languages ÿÿÿÿÿÿÿÿÿ*string08'remote_testing ÿÿÿÿÿÿÿÿÿ*bool08!adaptive ÿÿÿÿÿÿÿÿÿ*bool08#duration	 ÿÿÿÿÿÿÿÿÿ*string08%
+embed_text
+ ÿÿÿÿÿÿÿÿÿ*string085vector ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:307208
