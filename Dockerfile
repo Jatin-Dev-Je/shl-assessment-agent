@@ -26,10 +26,9 @@ COPY . .
 
 # ── Ensure catalog and index exist ────────────────────────────────────────────
 # catalog.json and lancedb_index/ are committed to repo.
-# Verify the table exists at image build time so deploys fail fast if artifacts
-# are missing or incomplete.
+# Verify the catalog artifact exists at image build time. LanceDB table
+# validation happens at application startup, where runtime secrets are present.
 RUN test -f catalog/catalog.json || (echo "ERROR: catalog/catalog.json missing. Run: python catalog/scraper.py" && exit 1)
-RUN python -c "from agent.retriever import _load_lancedb_table; _load_lancedb_table(); print('LanceDB table verified')"
 
 # ── Create logs directory ─────────────────────────────────────────────────────
 RUN mkdir -p logs
