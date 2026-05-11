@@ -20,6 +20,7 @@ LLM only called when rules cannot confidently classify.
 
 from __future__ import annotations
 
+import asyncio
 import re
 from enum import Enum
 from typing import Any
@@ -39,6 +40,28 @@ class Intent(str, Enum):
     REFINE = "REFINE"
     COMPARE = "COMPARE"
     OFF_SCOPE = "OFF_SCOPE"
+
+
+# ── Sentinel injected by orchestrator into assistant messages ─────────────────
+# When the orchestrator produces recommendations it appends this tag to the
+# assistant content string so the intent classifier can detect prior recs
+# without inspecting the structured recommendations array (which is not
+# available in the plain messages list).
+RECS_SENTINEL = "<HAS_RECS/>"
+
+
+# ── In-memory reply cache ─────────────────────────────────────────────────────
+# The public API strips RECS_SENTINEL before returning to the client. To keep
+# REFINE detection working in a stateless request flow, we also remember the
+# stripped assistant reply text for recommendation turns.
+_RECOMMENDATION_REPLY_CACHE: set[str] = set()
+
+
+def register_recommendation_reply(reply_text: str) -> None:
+    """Register a shortlist-bearing assistant reply for future REFINE turns."""
+    normalized = reply_text.replace(RECS_SENTINEL, "").strip()
+    if normalized:
+        _RECOMMENDATION_REPLY_CACHE.add(normalized)
 
 # ── Rule patterns ─────────────────────────────────────────────────────────────
 _COMPARE_PATTERNS = re.compile(
@@ -77,10 +100,14 @@ _VAGUE_PATTERNS = re.compile(
 
 # ── Helper ────────────────────────────────────────────────────────────────────
 def _conversation_has_recommendations(messages: list[dict[str, Any]]) -> bool:
-    """Check if agent has already made recommendations in this conversation."""
+    """Check if the agent has already returned recommendations in this conversation."""
     for msg in messages:
         if msg.get("role") == "assistant":
             content = msg.get("content", "")
+            if RECS_SENTINEL in content:
+                return True
+            if content.strip() in _RECOMMENDATION_REPLY_CACHE:
+                return True
             if "shl.com" in content.lower():
                 return True
     return False
@@ -148,7 +175,7 @@ def _llm_classify(messages: list[dict[str, Any]]) -> Intent:
         system_instruction=INTENT_CLASSIFIER_PROMPT,
     )
     history_text = "\n".join(
-        f"{msg['role'].upper()}: {msg['content']}"
+        f"{msg['role'].upper()}: {msg['content'].replace(RECS_SENTINEL, '').strip()}"
         for msg in messages[-6:]
     )
     prompt = f"Conversation history:\n{history_text}\n\nClassify the intent:"
@@ -177,6 +204,15 @@ def _llm_classify(messages: list[dict[str, Any]]) -> Intent:
         )
         return Intent.CLARIFY
 
+
+async def _llm_classify_async(messages: list[dict[str, Any]]) -> Intent:
+    """
+    Async wrapper — runs the blocking Gemini SDK call in a thread pool
+    so it never blocks the FastAPI event loop.
+    """
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(None, _llm_classify, messages)
+
 # ── Public API ────────────────────────────────────────────────────────────────
 def classify_intent(messages: list[dict[str, Any]]) -> Intent:
     """
@@ -200,3 +236,23 @@ def classify_intent(messages: list[dict[str, Any]]) -> Intent:
         return rule_result
     logger.info("Intent: deferring to LLM classifier", extra={"msg_preview": latest_msg[:80]})
     return _llm_classify(messages)
+
+
+async def classify_intent_async(messages: list[dict[str, Any]]) -> Intent:
+    """
+    Async entry point. Runs rule-based path inline; offloads LLM to executor.
+    Use this from async orchestrator to avoid blocking the event loop.
+    """
+    if not messages:
+        return Intent.CLARIFY
+    latest_msg = _get_latest_user_message(messages)
+    if not latest_msg:
+        return Intent.CLARIFY
+    rule_result = _rule_based_classify(messages, latest_msg)
+    if rule_result is not None:
+        return rule_result
+    logger.info(
+        "Intent: deferring to LLM classifier (async)",
+        extra={"msg_preview": latest_msg[:80]},
+    )
+    return await _llm_classify_async(messages)

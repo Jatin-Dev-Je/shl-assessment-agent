@@ -3,11 +3,14 @@ tests/test_schemas.py
 ─────────────────────
 Tests for API request/response Pydantic schemas.
 Covers valid inputs, edge cases, and all validation rules.
+
+Updated to cover strip_sentinel behaviour in from_agent_response().
 """
 
 import pytest
 from pydantic import ValidationError
 
+from agent.intent import RECS_SENTINEL
 from api.schemas import (
     ChatRequest,
     ChatResponse,
@@ -82,7 +85,6 @@ class TestChatRequest:
         for i in range(9):
             messages.append({"role": "user", "content": f"User message {i}"})
             messages.append({"role": "assistant", "content": f"Assistant reply {i}"})
-        # 18 messages > 16 limit
         with pytest.raises(ValidationError):
             ChatRequest(messages=messages)
 
@@ -138,7 +140,7 @@ class TestRecommendationItem:
         with pytest.raises(ValidationError):
             RecommendationItem(
                 name="Test",
-                url="http://www.shl.com/test",  # http, not https
+                url="http://www.shl.com/test",
                 test_type="K",
             )
 
@@ -191,7 +193,43 @@ class TestChatResponse:
         assert resp.recommendations == []
         assert resp.end_of_conversation is False
 
-    def test_from_agent_response(self):
+    def test_from_agent_response_strips_sentinel(self):
+        from agent.orchestrator import AgentResponse, Assessment
+
+        agent_resp = AgentResponse(
+            reply=f"Here is a recommendation. {RECS_SENTINEL}",
+            recommendations=[
+                Assessment(
+                    name="Java 8 (New)",
+                    url="https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+                    test_type="K",
+                )
+            ],
+            end_of_conversation=False,
+        )
+        chat_resp = ChatResponse.from_agent_response(agent_resp, strip_sentinel=True)
+        assert RECS_SENTINEL not in chat_resp.reply
+        assert chat_resp.reply == "Here is a recommendation."
+        assert len(chat_resp.recommendations) == 1
+
+    def test_from_agent_response_keeps_sentinel_when_not_stripped(self):
+        from agent.orchestrator import AgentResponse, Assessment
+
+        agent_resp = AgentResponse(
+            reply=f"Here is a recommendation. {RECS_SENTINEL}",
+            recommendations=[
+                Assessment(
+                    name="Java 8 (New)",
+                    url="https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+                    test_type="K",
+                )
+            ],
+            end_of_conversation=False,
+        )
+        chat_resp = ChatResponse.from_agent_response(agent_resp, strip_sentinel=False)
+        assert RECS_SENTINEL in chat_resp.reply
+
+    def test_from_agent_response_basic(self):
         from agent.orchestrator import AgentResponse, Assessment
 
         agent_resp = AgentResponse(

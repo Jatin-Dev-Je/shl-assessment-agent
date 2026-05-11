@@ -129,7 +129,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
             detail="Agent encountered an error",
         )
 
-    response = ChatResponse.from_agent_response(agent_response)
+    response = ChatResponse.from_agent_response(agent_response, strip_sentinel=True)
     logger.info(
         "Chat response sent",
         extra={

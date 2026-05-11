@@ -16,7 +16,12 @@ from typing import Any
 import groq
 from pydantic import BaseModel, field_validator, model_validator
 
-from agent.intent import Intent, classify_intent
+from agent.intent import (
+    Intent,
+    RECS_SENTINEL,
+    classify_intent_async,
+    register_recommendation_reply,
+)
 from agent.prompts import build_system_prompt
 from agent.retriever import Retriever
 from config import settings
@@ -120,6 +125,21 @@ def _extract_assessment_names_for_compare(
     return []
 
 
+# ── Strip sentinel from messages before sending to Groq ──────────────────────
+def _clean_messages_for_llm(messages: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Remove RECS_SENTINEL tags from assistant messages before sending to LLM."""
+    cleaned = []
+    for msg in messages:
+        if msg.get("role") == "assistant" and RECS_SENTINEL in msg.get("content", ""):
+            cleaned.append({
+                **msg,
+                "content": msg["content"].replace(RECS_SENTINEL, "").strip(),
+            })
+        else:
+            cleaned.append(msg)
+    return cleaned
+
+
 # ── Async Groq LLM call ───────────────────────────────────────────────────────
 async def _call_groq(system_prompt: str, user_prompt: str) -> AgentResponse:
     """Call Groq AsyncAPI and parse structured JSON response."""
@@ -200,7 +220,7 @@ class Orchestrator:
             )
 
         # ── Step 1: Classify intent ───────────────────────────────────────────
-        intent = classify_intent(messages)
+        intent = await classify_intent_async(messages)
         logger.info("Intent classified", extra={"intent": intent.value})
 
         # ── Step 2: Retrieve ──────────────────────────────────────────────────
@@ -233,12 +253,13 @@ class Orchestrator:
         )
 
         # ── Step 4: Build user prompt ─────────────────────────────────────────
-        latest_user_content = messages[-1].get("content", "")
+        clean_messages = _clean_messages_for_llm(messages)
+        latest_user_content = clean_messages[-1].get("content", "")
 
-        if len(messages) > 1:
+        if len(clean_messages) > 1:
             history_summary = "\n".join(
                 f"{m['role'].capitalize()}: {m['content']}"
-                for m in messages[:-1]
+                for m in clean_messages[:-1]
             )
             user_prompt = (
                 f"Conversation so far:\n{history_summary}\n\n"
@@ -263,6 +284,7 @@ class Orchestrator:
 
         # ── Step 6: Validate URLs ─────────────────────────────────────────────
         if response.recommendations:
+            register_recommendation_reply(response.reply)
             validated_recs = _validate_urls_against_catalog(response.recommendations)
             response = AgentResponse(
                 reply=response.reply,
@@ -275,6 +297,14 @@ class Orchestrator:
             response = AgentResponse(
                 reply=response.reply,
                 recommendations=[],
+                end_of_conversation=response.end_of_conversation,
+            )
+
+        # ── Step 8: Inject RECS_SENTINEL when shortlist is committed ─────────
+        if response.recommendations:
+            response = AgentResponse(
+                reply=response.reply + " " + RECS_SENTINEL,
+                recommendations=response.recommendations,
                 end_of_conversation=response.end_of_conversation,
             )
 

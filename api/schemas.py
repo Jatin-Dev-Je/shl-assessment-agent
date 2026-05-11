@@ -144,13 +144,28 @@ class ChatResponse(BaseModel):
         return self
 
     @classmethod
-    def from_agent_response(cls, agent_resp: Any) -> "ChatResponse":
+    def from_agent_response(
+        cls,
+        agent_resp: Any,
+        strip_sentinel: bool = False,
+    ) -> "ChatResponse":
         """
         Build ChatResponse from orchestrator AgentResponse.
         Single conversion point — keeps API layer clean.
+
+        Args:
+            agent_resp:      AgentResponse from orchestrator.run()
+            strip_sentinel:  If True, remove RECS_SENTINEL from reply before
+                             returning. Should be True in the API layer so the
+                             internal tag never reaches the client.
         """
+        from agent.intent import RECS_SENTINEL
+
+        reply = agent_resp.reply
+        if strip_sentinel:
+            reply = reply.replace(RECS_SENTINEL, "").strip()
         return cls(
-            reply=agent_resp.reply,
+            reply=reply,
             recommendations=[
                 RecommendationItem(
                     name=r.name,

@@ -33,6 +33,21 @@ PAGE_SIZE = 12
 MAX_PAGES = 40
 DETAIL_DELAY = 1.5
 
+# Boilerplate phrases that appear on every page — skip paragraphs that are
+# only boilerplate (they don't describe the specific assessment).
+_BOILERPLATE_FRAGMENTS = [
+    "cookie",
+    "privacy policy",
+    "terms of use",
+    "all rights reserved",
+    "javascript",
+    "shl group",
+    "contact us",
+    "we use cookies",
+    "navigation",
+    "skip to",
+]
+
 
 def _make_context(playwright):
     browser = playwright.chromium.launch(headless=True)
@@ -151,6 +166,51 @@ def scrape_listing(context) -> list[dict[str, Any]]:
     return all_assessments
 
 
+def _extract_description(page: Page) -> str:
+    """
+    Try multiple strategies to extract the assessment description.
+
+    Strategy order (most specific → most general):
+    1. Known SHL CSS class for description block
+    2. Any element with 'description' in its class
+    3. <article> content paragraphs
+    4. <main> content paragraphs
+    5. Scan ALL <p> tags, pick the longest one that isn't boilerplate
+    """
+    desc_el = (
+        page.query_selector(".product-catalogue-training-test__description")
+        or page.query_selector(".product-catalogue__description")
+        or page.query_selector("[class*='product-description']")
+        or page.query_selector("[class*='test-description']")
+        or page.query_selector("[class*='assessment-description']")
+        or page.query_selector("[class*='description']")
+    )
+    if desc_el:
+        text = desc_el.inner_text().strip()
+        if len(text) > 30:
+            return text[:1000]
+
+    for selector in ["article p", "main p", ".content p", "#content p"]:
+        els = page.query_selector_all(selector)
+        for el in els:
+            text = el.inner_text().strip()
+            lower = text.lower()
+            if len(text) > 60 and not any(frag in lower for frag in _BOILERPLATE_FRAGMENTS):
+                return text[:1000]
+
+    all_paras = page.query_selector_all("p")
+    best = ""
+    for el in all_paras:
+        text = el.inner_text().strip()
+        lower = text.lower()
+        if len(text) > len(best) and not any(frag in lower for frag in _BOILERPLATE_FRAGMENTS):
+            best = text
+    if len(best) > 30:
+        return best[:1000]
+
+    return ""
+
+
 def _scrape_detail(page: Page, url: str) -> dict[str, Any]:
     result: dict[str, Any] = {
         "description": "",
@@ -169,14 +229,7 @@ def _scrape_detail(page: Page, url: str) -> dict[str, Any]:
         return result
 
     try:
-        desc_el = (
-            page.query_selector(".product-catalogue-training-test__description")
-            or page.query_selector("[class*='description']")
-            or page.query_selector("article p")
-            or page.query_selector("main p")
-        )
-        if desc_el:
-            result["description"] = desc_el.inner_text().strip()[:1000]
+        result["description"] = _extract_description(page)
 
         known_levels = [
             "Director", "Entry-Level", "Executive",
@@ -238,6 +291,28 @@ def enrich_with_details(context, assessments: list[dict[str, Any]]) -> list[dict
     return enriched
 
 
+def filter_individual_tests_only(assessments: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """
+    Remove pre-packaged Job Solutions from the catalog.
+
+    The SHL assignment spec says: "Individual Test Solutions only.
+    Pre-packaged Job Solutions are out of scope."
+
+    Job Solutions have names ending in "Solution" (e.g. "Account Manager
+    Solution"). The scraper uses ?type=1 which should exclude them, but some
+    slip through — this filter is the safety net.
+    """
+    before = len(assessments)
+    filtered = [
+        a for a in assessments
+        if not a.get("name", "").strip().endswith("Solution")
+    ]
+    removed = before - len(filtered)
+    if removed:
+        print(f"\n  Filtered {removed} pre-packaged Job Solutions (out of scope).")
+    return filtered
+
+
 def save_catalog(assessments: list[dict[str, Any]], path: Path = OUTPUT_PATH) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -269,6 +344,11 @@ def scrape_catalog() -> list[dict[str, Any]]:
         finally:
             context.close()
             browser.close()
+
+    # Phase 3: filter out-of-scope Job Solutions
+    print("\n=== Phase 3: Filtering pre-packaged Job Solutions ===")
+    enriched = filter_individual_tests_only(enriched)
+
     return enriched
 
 

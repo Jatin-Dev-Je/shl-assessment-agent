@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Any
+
 from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -14,7 +16,10 @@ class Settings(BaseSettings):
 	# ── Gemini ────────────────────────────────────────────────────────────────
 	GEMINI_API_KEY: str
 	GEMINI_LLM_MODEL: str = "gemini-2.0-flash"
-	GEMINI_EMBEDDING_MODEL: str = "models/text-embedding-004"
+	# NOTE: Embedding model is hardcoded in retriever.py and build_index.py as
+	# "models/gemini-embedding-2" (3072-dim). The old GEMINI_EMBEDDING_MODEL
+	# config field pointed to the wrong model string and was never used by
+	# those files, so it has been removed to avoid confusion.
 
 	# ── Groq ─────────────────────────────────────────────────────────────────
 	GROQ_API_KEY: str
@@ -53,7 +58,7 @@ class Settings(BaseSettings):
 
 	@field_validator("TOP_K_RERANK")
 	@classmethod
-	def rerank_lte_retrieve(cls, v: int, info: any) -> int:
+	def rerank_lte_retrieve(cls, v: int, info: Any) -> int:
 		retrieve = info.data.get("TOP_K_RETRIEVE", 20)
 		if v > retrieve:
 			raise ValueError(

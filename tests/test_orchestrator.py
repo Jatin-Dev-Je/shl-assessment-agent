@@ -4,19 +4,25 @@ tests/test_orchestrator.py
 Tests for the main orchestrator pipeline.
 Gemini API, LanceDB, and CrossEncoder are all mocked.
 Tests each intent path end-to-end through the orchestrator.
+
+Updated to cover:
+    - RECS_SENTINEL is injected into reply when recommendations are committed
+    - RECS_SENTINEL is NOT present in replies when no recommendations returned
+    - REFINE path uses updated intent detection
 """
 
 import pytest
 from unittest.mock import patch, AsyncMock, MagicMock
 
+from agent.intent import Intent, RECS_SENTINEL
 from agent.orchestrator import (
-    Orchestrator,
-    AgentResponse,
-    Assessment,
-    _validate_urls_against_catalog,
-    _extract_assessment_names_for_compare,
+        Orchestrator,
+        AgentResponse,
+        Assessment,
+        _validate_urls_against_catalog,
+        _extract_assessment_names_for_compare,
+        _clean_messages_for_llm,
 )
-from agent.intent import Intent
 
 
 # ── Fixtures ──────────────────────────────────────────────────────────────────
@@ -105,6 +111,26 @@ class TestExtractNamesForCompare:
         assert result == []
 
 
+# ── Sentinel stripping ────────────────────────────────────────────────────────
+class TestCleanMessagesForLLM:
+    def test_strips_sentinel_from_assistant_message(self):
+        msgs = [
+            {"role": "user", "content": "Hire a Java developer"},
+            {"role": "assistant", "content": f"Here are your recs. {RECS_SENTINEL}"},
+            {"role": "user", "content": "Add personality tests"},
+        ]
+        cleaned = _clean_messages_for_llm(msgs)
+        for msg in cleaned:
+            assert RECS_SENTINEL not in msg["content"]
+
+    def test_leaves_user_messages_unchanged(self):
+        msgs = [
+            {"role": "user", "content": "Hire a Java developer"},
+        ]
+        cleaned = _clean_messages_for_llm(msgs)
+        assert cleaned[0]["content"] == "Hire a Java developer"
+
+
 # ── Orchestrator.run — intent paths ──────────────────────────────────────────
 class TestOrchestratorRun:
     def _make_mock_agent_response(self, intent: str) -> AgentResponse:
@@ -130,8 +156,10 @@ class TestOrchestratorRun:
 
     @pytest.mark.asyncio
     async def test_empty_messages_returns_greeting(self):
-        orch = Orchestrator()
-        response = await orch.run([])
+        orch = Orchestrator.__new__(Orchestrator)
+        orch.retriever = MagicMock()
+        with patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS):
+            response = await orch.run([])
         assert "SHL" in response.reply or "assessment" in response.reply.lower()
         assert response.recommendations == []
         assert response.end_of_conversation is False
@@ -142,24 +170,26 @@ class TestOrchestratorRun:
         mock_retriever = MagicMock()
         mock_retriever.retrieve = MagicMock(return_value=[])
 
-        with patch("agent.orchestrator.classify_intent", return_value=Intent.CLARIFY), \
+        with patch("agent.orchestrator.classify_intent_async", new=AsyncMock(return_value=Intent.CLARIFY)), \
             patch("agent.orchestrator._call_groq", new=AsyncMock(return_value=mock_response)), \
             patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS), \
-            patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", mock_retriever)):
+            patch.object(Orchestrator, "__init__", lambda self: (
+                setattr(self, "retriever", mock_retriever)
+            )):
 
             orch = Orchestrator()
             msgs = [{"role": "user", "content": "I need an assessment"}]
             response = await orch.run(msgs)
 
-            # CLARIFY must always return empty recommendations
             assert response.recommendations == []
+            assert RECS_SENTINEL not in response.reply
             orch.retriever.retrieve.assert_not_called()
 
     @pytest.mark.asyncio
     async def test_off_scope_returns_empty_recommendations(self):
         mock_response = self._make_mock_agent_response("OFF_SCOPE")
 
-        with patch("agent.orchestrator.classify_intent", return_value=Intent.OFF_SCOPE), \
+        with patch("agent.orchestrator.classify_intent_async", new=AsyncMock(return_value=Intent.OFF_SCOPE)), \
             patch("agent.orchestrator._call_groq", new=AsyncMock(return_value=mock_response)), \
             patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS), \
             patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", MagicMock(retrieve=MagicMock(return_value=[])))):
@@ -169,15 +199,17 @@ class TestOrchestratorRun:
             response = await orch.run(msgs)
 
             assert response.recommendations == []
+            assert RECS_SENTINEL not in response.reply
 
     @pytest.mark.asyncio
-    async def test_recommend_intent_returns_recommendations(self):
+    async def test_recommend_intent_injects_sentinel(self):
+        """When recommendations are committed, RECS_SENTINEL should be in reply."""
         mock_response = self._make_mock_agent_response("RECOMMEND")
 
         mock_retriever = MagicMock()
         mock_retriever.retrieve = MagicMock(return_value=MOCK_RETRIEVED)
 
-        with patch("agent.orchestrator.classify_intent", return_value=Intent.RECOMMEND), \
+        with patch("agent.orchestrator.classify_intent_async", new=AsyncMock(return_value=Intent.RECOMMEND)), \
             patch("agent.orchestrator._call_groq", new=AsyncMock(return_value=mock_response)), \
             patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS), \
             patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", mock_retriever)):
@@ -191,6 +223,7 @@ class TestOrchestratorRun:
             response = await orch.run(msgs)
 
             assert len(response.recommendations) >= 1
+            assert RECS_SENTINEL in response.reply
 
     @pytest.mark.asyncio
     async def test_agent_failure_returns_graceful_error(self):
@@ -198,7 +231,7 @@ class TestOrchestratorRun:
         mock_retriever = MagicMock()
         mock_retriever.retrieve = MagicMock(return_value=MOCK_RETRIEVED)
 
-        with patch("agent.orchestrator.classify_intent", return_value=Intent.RECOMMEND), \
+        with patch("agent.orchestrator.classify_intent_async", new=AsyncMock(return_value=Intent.RECOMMEND)), \
             patch("agent.orchestrator._call_groq", new=AsyncMock(side_effect=Exception("Groq API error"))), \
             patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS), \
             patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", mock_retriever)):
@@ -207,7 +240,7 @@ class TestOrchestratorRun:
             msgs = [{"role": "user", "content": "Hire a Java developer"}]
             response = await orch.run(msgs)
 
-            # Should return a helpful fallback, not crash
             assert response.reply != ""
             assert response.recommendations == []
             assert response.end_of_conversation is False
+            assert RECS_SENTINEL not in response.reply
