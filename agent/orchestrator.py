@@ -206,7 +206,7 @@ class Orchestrator:
         # ── Step 2: Retrieve ──────────────────────────────────────────────────
         retrieved: list[dict[str, Any]] = []
 
-        if intent == Intent.OFF_SCOPE:
+        if intent in (Intent.CLARIFY, Intent.OFF_SCOPE):
             retrieved = []
         elif intent == Intent.COMPARE:
             names = _extract_assessment_names_for_compare(messages)

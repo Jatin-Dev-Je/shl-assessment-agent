@@ -139,11 +139,13 @@ class TestOrchestratorRun:
     @pytest.mark.asyncio
     async def test_clarify_intent_returns_empty_recommendations(self):
         mock_response = self._make_mock_agent_response("CLARIFY")
+        mock_retriever = MagicMock()
+        mock_retriever.retrieve = MagicMock(return_value=[])
 
         with patch("agent.orchestrator.classify_intent", return_value=Intent.CLARIFY), \
             patch("agent.orchestrator._call_groq", new=AsyncMock(return_value=mock_response)), \
             patch("agent.orchestrator._load_catalog_urls", return_value=VALID_CATALOG_URLS), \
-            patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", MagicMock(retrieve=MagicMock(return_value=[])))):
+            patch.object(Orchestrator, "__init__", lambda self: setattr(self, "retriever", mock_retriever)):
 
             orch = Orchestrator()
             msgs = [{"role": "user", "content": "I need an assessment"}]
@@ -151,6 +153,7 @@ class TestOrchestratorRun:
 
             # CLARIFY must always return empty recommendations
             assert response.recommendations == []
+            orch.retriever.retrieve.assert_not_called()
 
     @pytest.mark.asyncio
     async def test_off_scope_returns_empty_recommendations(self):
