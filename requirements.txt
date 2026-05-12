@@ -13,6 +13,8 @@ lancedb==0.13.0
 pyarrow==17.0.0
 
 # ── Reranker ──────────────────────────────────────────────────────────────────
+# torch is pre-installed as CPU-only in Dockerfile to avoid 2.5 GB CUDA pull.
+# Listed here for local dev — local installs may get CUDA if GPU is present.
 sentence-transformers==3.1.1
 torch==2.4.1
 transformers==4.44.2

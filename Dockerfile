@@ -16,9 +16,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # ── Install Python deps ───────────────────────────────────────────────────────
-# Copy requirements first for Docker layer caching
+# Copy requirements first for Docker layer caching.
+# Install CPU-only torch first so pip doesn't pull 2.5 GB of CUDA libraries.
+# The CrossEncoder runs fine on CPU for this workload.
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir \
+        torch==2.4.1 \
+        --index-url https://download.pytorch.org/whl/cpu && \
     pip install --no-cache-dir -r requirements.txt
 
 # ── Copy application ──────────────────────────────────────────────────────────
