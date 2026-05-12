@@ -1,0 +1,16 @@
+{
+  "trace_id": "C4_graduate_finance",
+  "persona": "You are a campus recruiter hiring graduate financial analysts.",
+  "facts": {
+    "role": "Graduate financial analyst",
+    "seniority": "Entry-level, final-year students",
+    "needs": "numerical reasoning, finance knowledge, situational judgment"
+  },
+  "expected_assessments": [
+    "SHL Verify Interactive – Numerical Reasoning",
+    "Financial Accounting (New)",
+    "Basic Statistics (New)",
+    "Graduate Scenarios",
+    "Occupational Personality Questionnaire OPQ32r"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "trace_id": "C3_contact_center",
+  "persona": "You are a workforce planning manager hiring entry-level contact center agents.",
+  "facts": {
+    "role": "Entry-level contact centre agent",
+    "volume": "500 candidates",
+    "focus": "Inbound calls, customer service",
+    "language": "English US"
+  },
+  "expected_assessments": [
+    "SVAR - Spoken English (US) (New)",
+    "Contact Center Call Simulation (New)",
+    "Entry Level Customer Serv-Retail & Contact Center",
+    "Customer Service Phone Simulation"
+  ]
+}

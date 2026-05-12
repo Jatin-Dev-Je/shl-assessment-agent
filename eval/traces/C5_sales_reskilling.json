@@ -1,0 +1,16 @@
+{
+  "trace_id": "C5_sales_reskilling",
+  "persona": "You are an L&D director running a sales organization talent audit.",
+  "facts": {
+    "role": "Sales organization (reps and managers)",
+    "purpose": "Re-skilling and talent audit",
+    "needs": "skills assessment, personality, sales-specific reports"
+  },
+  "expected_assessments": [
+    "Global Skills Assessment",
+    "Global Skills Development Report",
+    "Occupational Personality Questionnaire OPQ32r",
+    "OPQ MQ Sales Report",
+    "Sales Transformation 2.0 - Individual Contributor"
+  ]
+}

@@ -51,10 +51,22 @@ RECS_SENTINEL = "<HAS_RECS/>"
 
 
 # ── In-memory reply cache ─────────────────────────────────────────────────────
-# The public API strips RECS_SENTINEL before returning to the client. To keep
-# REFINE detection working in a stateless request flow, we also remember the
-# stripped assistant reply text for recommendation turns.
+# The API no longer strips RECS_SENTINEL before returning to the client, so
+# the sentinel travels with the conversation history on every subsequent
+# request — making REFINE detection reliable across cold starts and restarts.
+# This in-memory cache is kept as a secondary fallback (e.g., legacy clients
+# that strip the sentinel before echoing it back).
 _RECOMMENDATION_REPLY_CACHE: set[str] = set()
+
+# Phrase patterns that indicate the agent already committed a shortlist.
+# Used as a tertiary fallback when neither RECS_SENTINEL nor the URL check
+# matches (e.g., a client that strips both the sentinel and the URLs).
+_REC_REPLY_PATTERNS = re.compile(
+    r"\b(here are|i recommend|shortlist|following assessments?|"
+    r"these assessments?|recommended for|best fit|suited for this role|"
+    r"assessments? for your|assessments? that fit)\b",
+    re.IGNORECASE,
+)
 
 
 def register_recommendation_reply(reply_text: str) -> None:
@@ -100,7 +112,14 @@ _VAGUE_PATTERNS = re.compile(
 
 # ── Helper ────────────────────────────────────────────────────────────────────
 def _conversation_has_recommendations(messages: list[dict[str, Any]]) -> bool:
-    """Check if the agent has already returned recommendations in this conversation."""
+    """Check if the agent has already returned recommendations in this conversation.
+
+    Detection priority:
+      1. RECS_SENTINEL present  — primary (works when API does not strip sentinel)
+      2. In-memory reply cache  — secondary fallback (same-process, survives sentinel stripping)
+      3. shl.com URL in content — tertiary (reply text contains a catalog URL)
+      4. Recommendation phrase  — quaternary (natural-language pattern match)
+    """
     for msg in messages:
         if msg.get("role") == "assistant":
             content = msg.get("content", "")
@@ -109,6 +128,8 @@ def _conversation_has_recommendations(messages: list[dict[str, Any]]) -> bool:
             if content.strip() in _RECOMMENDATION_REPLY_CACHE:
                 return True
             if "shl.com" in content.lower():
+                return True
+            if _REC_REPLY_PATTERNS.search(content):
                 return True
     return False
 

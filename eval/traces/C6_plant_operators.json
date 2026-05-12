@@ -1,0 +1,13 @@
+{
+  "trace_id": "C6_plant_operators",
+  "persona": "You are an HSE manager hiring plant operators for a chemical facility.",
+  "facts": {
+    "role": "Plant operator",
+    "industry": "Chemical / Industrial facility",
+    "priority": "Safety, reliability, procedure compliance"
+  },
+  "expected_assessments": [
+    "Manufac. & Indust. - Safety & Dependability 8.0",
+    "Workplace Health and Safety (New)"
+  ]
+}

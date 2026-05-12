@@ -23,10 +23,11 @@ logger = get_logger(__name__)
 async def lifespan(app: FastAPI):
     logger.info("Starting up SHL Assessment Recommender")
     get_orchestrator()
-    from agent.retriever import _load_lancedb_table
+    from agent.retriever import _load_lancedb_table, _warm_cross_encoder_async
 
     _load_lancedb_table()
-    logger.info("Startup complete — LanceDB loaded; CrossEncoder will warm on first use")
+    _warm_cross_encoder_async()
+    logger.info("Startup complete — LanceDB loaded; CrossEncoder warming in background")
     yield
     logger.info("Shutting down SHL Assessment Recommender")
 
@@ -127,7 +128,10 @@ async def chat(request: ChatRequest) -> ChatResponse:
             detail="Agent encountered an error",
         )
 
-    response = ChatResponse.from_agent_response(agent_response, strip_sentinel=True)
+    # Keep RECS_SENTINEL in the reply so the stateless client echoes it back
+    # in the next turn's history. _clean_messages_for_llm strips it before
+    # any LLM call, so neither Groq nor Gemini ever sees it.
+    response = ChatResponse.from_agent_response(agent_response, strip_sentinel=False)
     logger.info(
         "Chat response sent",
         extra={

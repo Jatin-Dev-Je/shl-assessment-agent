@@ -19,6 +19,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import re
 import threading
 from functools import lru_cache
 from pathlib import Path
@@ -37,6 +38,37 @@ logger = get_logger(__name__)
 # ── Constants ─────────────────────────────────────────────────────────────────
 CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 EMBEDDING_MODEL = "models/gemini-embedding-2"   # must match build_index.py
+
+# ── Metadata type boosting ────────────────────────────────────────────────────
+# Maps SHL test_type codes to keywords that signal user preference for that type.
+# Applied after reranking to surface type-matching assessments without hard filtering.
+_TYPE_KEYWORDS: dict[str, re.Pattern] = {
+    "P": re.compile(
+        r"\b(personality|behaviour|behavior|OPQ|trait|style|motivation|preference|"
+        r"cultural fit|values|attitude|interpersonal|leadership style)\b",
+        re.IGNORECASE,
+    ),
+    "A": re.compile(
+        r"\b(cognitive|ability|aptitude|numerical|verbal|reasoning|inductive|"
+        r"deductive|Verify|abstract|critical thinking|problem.?solving|logical)\b",
+        re.IGNORECASE,
+    ),
+    "K": re.compile(
+        r"\b(technical|programming|coding|Java|Python|SQL|software|knowledge|"
+        r"skill test|computer|IT|data|engineering)\b",
+        re.IGNORECASE,
+    ),
+    "B": re.compile(
+        r"\b(situational|judgement|judgment|SJT|scenario|workplace scenario|"
+        r"decision.?making|real.?world)\b",
+        re.IGNORECASE,
+    ),
+    "S": re.compile(
+        r"\b(simulation|work sample|exercise|assessment centre|in.?tray|"
+        r"inbox|case study)\b",
+        re.IGNORECASE,
+    ),
+}
 
 
 def _artifact_path(path_str: str) -> Path:
@@ -166,10 +198,11 @@ def _dense_retrieve(
     """
     table = _load_lancedb_table()
 
+    # Fetch extra candidates to absorb any job solutions that slip through
     results = (
         table.search(query_embedding)
         .metric("cosine")
-        .limit(top_k)
+        .limit(top_k + 15)
         .to_list()
     )
 
@@ -181,6 +214,17 @@ def _dense_retrieve(
                     r[field] = json.loads(r[field])
                 except Exception:
                     r[field] = []
+
+    # Filter pre-packaged Job Solutions that may have been indexed before
+    # the scraper filter was applied. Names ending in "Solution" are out-of-scope.
+    before = len(results)
+    results = [r for r in results if not r.get("name", "").strip().endswith("Solution")]
+    results = results[:top_k]
+    if len(results) < before:
+        logger.info(
+            "Filtered job solutions from dense results",
+            extra={"removed": before - len(results) - max(0, before - top_k - 15)},
+        )
 
     logger.info(
         "Dense retrieval complete",
@@ -256,6 +300,34 @@ def _build_query_from_messages(messages: list[dict[str, Any]]) -> str:
     return " ".join(user_messages)
 
 
+# ── Metadata type helpers ─────────────────────────────────────────────────────
+def _detect_preferred_types(query: str) -> set[str]:
+    """Return the set of SHL test_type codes signalled by keywords in the query."""
+    return {code for code, pat in _TYPE_KEYWORDS.items() if pat.search(query)}
+
+
+def _boost_by_type(
+    candidates: list[dict[str, Any]],
+    preferred_types: set[str],
+) -> list[dict[str, Any]]:
+    """
+    Surface type-matching assessments to the top of the list without hard-filtering.
+
+    Splits the reranked list into preferred / rest, then concatenates.
+    The overall length is unchanged — no candidates are dropped.
+    """
+    if not preferred_types:
+        return candidates
+    preferred = [c for c in candidates if c.get("test_type", "") in preferred_types]
+    rest = [c for c in candidates if c.get("test_type", "") not in preferred_types]
+    boosted = preferred + rest
+    logger.info(
+        "Type boosting applied",
+        extra={"preferred_types": list(preferred_types), "boosted": len(preferred)},
+    )
+    return boosted
+
+
 # ── Specific assessment lookup ────────────────────────────────────────────────
 def get_assessments_by_name(names: list[str]) -> list[dict[str, Any]]:
     """
@@ -314,7 +386,7 @@ class Retriever:
         use_hyde: bool | None = None,
     ) -> list[dict[str, Any]]:
         """
-        Full retrieval pipeline: HyDE → embed → dense search → rerank.
+        Full retrieval pipeline: HyDE → embed → dense search → rerank → type boost.
 
         Args:
             query:     Condensed query string
@@ -322,7 +394,7 @@ class Retriever:
             use_hyde:  Override HyDE setting (defaults to settings.HYDE_ENABLED)
 
         Returns:
-            List of top-k reranked assessment dicts
+            List of top-k reranked (and type-boosted) assessment dicts
         """
         use_hyde = settings.HYDE_ENABLED if use_hyde is None else use_hyde
 
@@ -330,6 +402,18 @@ class Retriever:
             full_query = _build_query_from_messages(messages)
         else:
             full_query = query
+
+        # ── Adaptive HyDE ─────────────────────────────────────────────────────
+        # After 3+ user turns the concatenated query is dense enough that HyDE's
+        # vocabulary bridging adds latency (~1-2s) without meaningful recall gain.
+        if use_hyde and messages:
+            user_turn_count = sum(1 for m in messages if m.get("role") == "user")
+            if user_turn_count >= 3:
+                use_hyde = False
+                logger.info(
+                    "Adaptive HyDE: disabled — conversation already rich",
+                    extra={"user_turns": user_turn_count},
+                )
 
         logger.info(
             "Starting retrieval",
@@ -367,9 +451,17 @@ class Retriever:
         # ── Stage 4: Rerank ───────────────────────────────────────────────────
         reranked = _rerank(full_query, candidates, top_k=settings.TOP_K_RERANK)
 
+        # ── Stage 5: Type boost ───────────────────────────────────────────────
+        # Surface type-matching assessments to the top when the user's query
+        # explicitly signals a preference (personality, cognitive, technical…).
+        # Does not hard-filter — all reranked candidates are preserved.
+        preferred_types = _detect_preferred_types(full_query)
+        if preferred_types:
+            reranked = _boost_by_type(reranked, preferred_types)
+
         logger.info(
             "Retrieval pipeline complete",
-            extra={"final_count": len(reranked)},
+            extra={"final_count": len(reranked), "type_boost": list(preferred_types)},
         )
         return reranked
 

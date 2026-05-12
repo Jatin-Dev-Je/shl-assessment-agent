@@ -1,28 +1,11 @@
 [
   {
-    "name": "Account Manager Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/account-manager-solution/",
-    "test_type": "C, P, A, B",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Executive",
-      "Manager",
-      "Mid-Professional"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 49"
-  },
-  {
     "name": "Administrative Professional - Short Form",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/administrative-professional-short-form/",
     "test_type": "A, K, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Administrative Professional - Short Form is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and knowledge and skills assessment measuring specific technical or domain knowledge and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Assessment measuring administrative skills including organisation, attention to detail, and office software proficiency. Target audience: Entry-Level, Manager.",
     "job_levels": [
       "Entry-Level",
       "Manager"
@@ -33,29 +16,12 @@
     "duration": "Approximate Completion Time in minutes = 36"
   },
   {
-    "name": "Agency Manager Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/agency-manager-solution/",
-    "test_type": "A, B, P, S",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Front Line Manager",
-      "Manager",
-      "Supervisor"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 51"
-  },
-  {
     "name": "Apprentice + 8.0 Job Focused Assessment",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/",
     "test_type": "B, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apprentice + 8.0 Job Focused Assessment is a biodata and situational judgment assessment measuring real-world workplace decision-making and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Job-focused assessment battery calibrated for apprentice and entry-level candidates entering trades, technical, or operational roles. Target audience: Entry-Level, General Population, Graduate.",
     "job_levels": [
       "Entry-Level",
       "General Population",
@@ -72,7 +38,7 @@
     "test_type": "B, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apprentice 8.0 Job Focused Assessment is a biodata and situational judgment assessment measuring real-world workplace decision-making and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Job-focused assessment battery calibrated for apprentice and entry-level candidates entering trades, technical, or operational roles. Target audience: Entry-Level, General Population, Graduate.",
     "job_levels": [
       "Entry-Level",
       "General Population",
@@ -89,7 +55,7 @@
     "test_type": "A, B, K, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Bank Administrative Assistant - Short Form is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and biodata and situational judgment assessment measuring real-world workplace decision-making and knowledge and skills assessment measuring specific technical or domain knowledge and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Assessment measuring administrative skills including organisation, attention to detail, and office software proficiency. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -104,7 +70,7 @@
     "test_type": "A, B, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Bank Collections Agent - Short Form is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and biodata and situational judgment assessment measuring real-world workplace decision-making and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -119,7 +85,7 @@
     "test_type": "A, B, P, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Bank Operations Supervisor - Short Form is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and biodata and situational judgment assessment measuring real-world workplace decision-making and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies and simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Front Line Manager, Manager, Supervisor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -132,27 +98,12 @@
     "duration": "Approximate Completion Time in minutes = 45"
   },
   {
-    "name": "Bilingual Spanish Reservation Agent Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/",
-    "test_type": "B, P, S, A",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 43"
-  },
-  {
     "name": "Bookkeeping, Accounting, Auditing Clerk Short Form",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/",
     "test_type": "P, S, K, B, A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Bookkeeping, Accounting, Auditing Clerk Short Form is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies and simulation assessment replicating real job tasks and workplace situations and knowledge and skills assessment measuring specific technical or domain knowledge and biodata and situational judgment assessment measuring real-world workplace decision-making and ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Knowledge assessment measuring accounting and bookkeeping skills including ledger management and financial reporting. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -167,7 +118,7 @@
     "test_type": "A, B, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Branch Manager - Short Form is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and biodata and situational judgment assessment measuring real-world workplace decision-making and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Front Line Manager, Manager, Supervisor.",
     "job_levels": [
       "Front Line Manager",
       "Manager",
@@ -179,27 +130,12 @@
     "duration": "Approximate Completion Time in minutes = 50"
   },
   {
-    "name": "Cashier Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/cashier-solution/",
-    "test_type": "B, A, P",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 28"
-  },
-  {
     "name": "Global Skills Development Report",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/global-skills-development-report/",
     "test_type": "A, E, B, C, D, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Global Skills Development Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and assessment exercise such as in-tray, role-play, or case study for assessment centres and biodata and situational judgment assessment measuring real-world workplace decision-making and competency assessment evaluating job-relevant skills against a competency framework and development and 360 assessment providing feedback for professional growth and coaching and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Development report derived from the Global Skills Assessment identifying skill gaps and recommending learning actions. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -222,7 +158,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET Framework 4.5 is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -238,7 +174,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET MVC (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -254,7 +190,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET MVVM (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -270,7 +206,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET WCF (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -286,7 +222,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET WPF (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -302,7 +238,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": ".NET XAML (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -318,7 +254,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Accounts Payable (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -336,7 +272,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Accounts Payable Simulation (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -354,7 +290,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Accounts Receivable (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -372,7 +308,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Accounts Receivable Simulation (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -390,7 +326,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ADO.NET (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -406,7 +342,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Adobe Experience Manager (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -423,7 +359,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Adobe Photoshop CC is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -439,7 +375,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Aeronautical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -456,7 +392,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Aerospace Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -473,7 +409,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Agile Software Development is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate.",
     "job_levels": [
       "Graduate"
     ],
@@ -488,7 +424,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Agile Testing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -504,7 +440,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "AI Skills is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: General Population.",
     "job_levels": [
       "General Population"
     ],
@@ -519,7 +455,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Amazon Web Services (AWS) Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -535,7 +471,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Android Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -551,7 +487,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Angular 6 (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -567,7 +503,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "AngularJS (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring JavaScript programming proficiency for web development roles. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -583,7 +519,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Hadoop (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -599,7 +535,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Hadoop Extensions (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -615,7 +551,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache HBase (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -631,7 +567,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Hive (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -647,7 +583,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Kafka (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -663,7 +599,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Pig (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -679,7 +615,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Apache Spark (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -695,7 +631,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ASP .NET with C# (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -711,7 +647,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ASP.NET 4.5 is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -727,7 +663,7 @@
     "test_type": "E",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Assessment and Development Center Exercises is a assessment exercise such as in-tray, role-play, or case study for assessment centres. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -749,7 +685,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata - Fix (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Mid-Professional.",
     "job_levels": [
       "Mid-Professional"
     ],
@@ -764,7 +700,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata - SQL (New) is a simulation assessment replicating real job tasks and workplace situations. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -780,7 +716,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -796,7 +732,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata Data Science (New) is a simulation assessment replicating real job tasks and workplace situations. Knowledge assessment measuring data science and analytics skills including statistical methods and ML concepts. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -812,7 +748,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata Data Science Pro (New) is a simulation assessment replicating real job tasks and workplace situations. Knowledge assessment measuring data science and analytics skills including statistical methods and ML concepts. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -828,7 +764,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata Front End is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -847,7 +783,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata Pro (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -863,7 +799,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automata Selenium is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -882,7 +818,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Automation Anywhere RPA Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -898,7 +834,7 @@
     "test_type": "K",
     "remote_testing": false,
     "adaptive": false,
-    "description": "",
+    "description": "Automotive Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge.",
     "job_levels": [],
     "languages": [],
     "duration": ""
@@ -909,7 +845,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Basic Biology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -926,7 +862,7 @@
     "test_type": "S, K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Basic Computer Literacy (Windows 10) (New) is a simulation assessment replicating real job tasks and workplace situations and knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -941,7 +877,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Basic Statistics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge test assessing understanding of foundational statistical concepts, data interpretation, and methods. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -958,7 +894,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Biochemistry (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -975,7 +911,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Biotech Lab Techniques (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -992,7 +928,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "BizTalk (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1008,7 +944,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Business Communication (adaptive) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -1027,7 +963,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Business Communications is a knowledge and skills assessment measuring specific technical or domain knowledge.",
     "job_levels": [],
     "languages": [
       "English (USA)"
@@ -1040,7 +976,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "C Programming (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring C or C++ programming proficiency for systems and embedded development. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1056,7 +992,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "C# Programming (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1072,7 +1008,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "C++ Programming (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring C or C++ programming proficiency for systems and embedded development. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1088,7 +1024,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Cardiology and Diabetes Management (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1105,7 +1041,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Ceramic Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1122,7 +1058,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Chemical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1139,7 +1075,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Cisco AppDynamics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1155,7 +1091,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Civil Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -1174,7 +1110,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Cloud Computing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1190,7 +1126,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "COBOL Programming (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1206,7 +1142,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Computer Science (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1222,7 +1158,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Contact Center Call Simulation (New) is a simulation assessment replicating real job tasks and workplace situations. Simulates inbound contact centre calls testing customer service skills and call-handling behaviour. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1237,7 +1173,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Conversational Multichat Simulation is a simulation assessment replicating real job tasks and workplace situations.",
     "job_levels": [],
     "languages": [
       "English (USA)"
@@ -1250,7 +1186,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Core Java (Advanced Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1266,7 +1202,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Core Java (Entry Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1282,7 +1218,7 @@
     "test_type": "K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Count Out The Money is a knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1297,7 +1233,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "CSS3 (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1313,7 +1249,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Culinary Skills (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -1332,7 +1268,7 @@
     "test_type": "B, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Customer Service Phone Simulation is a biodata and situational judgment assessment measuring real-world workplace decision-making and simulation assessment replicating real job tasks and workplace situations. Simulates customer service phone interactions assessing responsiveness, empathy, and problem resolution. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1342,27 +1278,12 @@
     "duration": "Approximate Completion Time in minutes = 20"
   },
   {
-    "name": "Customer Service Phone Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-phone-solution/",
-    "test_type": "B, P, S",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English International"
-    ],
-    "duration": "Approximate Completion Time in minutes = 30"
-  },
-  {
     "name": "Cyber Risk (New)",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/cyber-risk-new/",
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Cyber Risk (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -1380,7 +1301,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Entry (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1395,7 +1316,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Entry Alphanumeric Split Screen - US is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -1414,7 +1335,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Entry Numeric Split Screen - US is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -1433,7 +1354,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Entry Ten Key Split Screen is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -1452,7 +1373,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Science (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring data science and analytics skills including statistical methods and ML concepts. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1468,7 +1389,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Data Warehousing Concepts is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1484,7 +1405,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Dependability and Safety Instrument (DSI) is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of dependability, safety-conscious behaviour, integrity, and rule compliance across industries. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1499,7 +1420,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Dermatology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1516,7 +1437,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Desktop Support (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1533,7 +1454,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Digital Advertising (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -1552,7 +1473,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Digital Readiness Development Report - IC is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -1576,7 +1497,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Digital Readiness Development Report - Manager is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -1599,7 +1520,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Docker (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1615,7 +1536,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Dojo (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1631,7 +1552,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Drupal (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1647,7 +1568,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "DSI v1.1 Interpretation Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of dependability, safety-conscious behaviour, integrity, and rule compliance across industries.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -1660,7 +1581,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Econometrics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1677,7 +1598,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Economics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1694,7 +1615,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Electrical and Electronics Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1711,7 +1632,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Electrical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1728,7 +1649,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Electronics & Telecommunications Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1745,7 +1666,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Electronics and Embedded Systems Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1762,7 +1683,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Electronics and Semiconductor Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -1779,7 +1700,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "English Comprehension (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1794,7 +1715,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Enterprise Java Beans (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1810,7 +1731,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Enterprise Leadership Report 1.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies. Target audience: Director, Executive, Manager, Mid-Professional.",
     "job_levels": [
       "Director",
       "Executive",
@@ -1828,7 +1749,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Enterprise Leadership Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies. Target audience: Director, Executive, Manager, Mid-Professional.",
     "job_levels": [
       "Director",
       "Executive",
@@ -1841,27 +1762,12 @@
     "duration": ""
   },
   {
-    "name": "Entry Level Cashier Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-cashier-solution/",
-    "test_type": "C, P",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 19"
-  },
-  {
     "name": "Entry Level Customer Serv-Retail & Contact Center",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
     "test_type": "P, C",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Entry Level Customer Serv-Retail & Contact Center is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies and competency assessment evaluating job-relevant skills against a competency framework. Behavioural and personality assessment for entry-level customer service roles in retail and contact centre environments. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -1869,66 +1775,6 @@
       "English (USA)"
     ],
     "duration": "Approximate Completion Time in minutes = 19"
-  },
-  {
-    "name": "Entry Level Customer Service (General) Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-service-general-solution/",
-    "test_type": "C, P",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 14"
-  },
-  {
-    "name": "Entry Level Hotel Front Desk Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-hotel-front-desk-solution/",
-    "test_type": "C, P",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 20"
-  },
-  {
-    "name": "Entry Level Sales Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-solution/",
-    "test_type": "C, P",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "Latin American Spanish"
-    ],
-    "duration": "Approximate Completion Time in minutes = 20"
-  },
-  {
-    "name": "Entry Level Technical Support Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-technical-support-solution/",
-    "test_type": "P, C",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English (USA)"
-    ],
-    "duration": "Approximate Completion Time in minutes = 18"
   },
   {
     "name": "ETL Testing (New)",
@@ -1936,7 +1782,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ETL Testing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -1952,7 +1798,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Executive Scenarios is a biodata and situational judgment assessment measuring real-world workplace decision-making. Target audience: Director, Executive, Manager.",
     "job_levels": [
       "Director",
       "Executive",
@@ -1969,7 +1815,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Executive Scenarios Narrative Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Target audience: Director, Executive, Manager.",
     "job_levels": [
       "Director",
       "Executive",
@@ -1986,7 +1832,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Executive Scenarios Profile Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Target audience: Director, Executive, Manager.",
     "job_levels": [
       "Director",
       "Executive",
@@ -2003,7 +1849,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ExpressJS (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring JavaScript programming proficiency for web development roles. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2019,7 +1865,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Filing - Names (R1) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -2034,7 +1880,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Filing - Numbers is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -2049,7 +1895,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Financial Accounting (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge test measuring understanding of financial accounting principles, practices, and reporting standards. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -2069,7 +1915,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Financial and Banking Services (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2088,7 +1934,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Fire Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2105,7 +1951,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Following Instructions v1 - UK (R1) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -2124,7 +1970,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Following Instructions v1 - US (R2) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -2143,7 +1989,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Food and Beverage Services (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2162,7 +2008,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Food Science (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2179,7 +2025,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Front Office Management (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -2197,7 +2043,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Fundamentals of Chemistry (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2214,7 +2060,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Fundamentals of Physics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2231,7 +2077,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "General Diseases (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2248,7 +2094,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Geoinformatics Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -2267,7 +2113,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Geoscience Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2284,7 +2130,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "GIT (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2300,7 +2146,7 @@
     "test_type": "C, K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Global Skills Assessment is a competency assessment evaluating job-relevant skills against a competency framework and knowledge and skills assessment measuring specific technical or domain knowledge. Self-reported skills inventory assessing proficiency across a broad range of workplace competencies for talent audit and reskilling.",
     "job_levels": [],
     "languages": [
       "English (USA)"
@@ -2313,7 +2159,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Graduate Scenarios is a biodata and situational judgment assessment measuring real-world workplace decision-making. Situational judgment test designed specifically for graduate-level candidates assessing work-context decision-making and professional judgement. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2331,7 +2177,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Graduate Scenarios Narrative Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Situational judgment test designed specifically for graduate-level candidates assessing work-context decision-making and professional judgement. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2349,7 +2195,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Graduate Scenarios Profile Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Situational judgment test designed specifically for graduate-level candidates assessing work-context decision-making and professional judgement. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2367,7 +2213,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Hibernate (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2383,7 +2229,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HIPAA (Security) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge test measuring understanding of HIPAA privacy and security regulations for healthcare staff handling patient data. Target audience: Front Line Manager, Manager.",
     "job_levels": [
       "Front Line Manager",
       "Manager"
@@ -2399,7 +2245,7 @@
     "test_type": "C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HiPo Assessment Report 1.0 is a competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -2412,7 +2258,7 @@
     "test_type": "C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HiPo Assessment Report 2.0 is a competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -2425,7 +2271,7 @@
     "test_type": "C",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HiPo Unlocking Potential Report 2.0 is a competency assessment evaluating job-relevant skills against a competency framework. Target audience: Manager.",
     "job_levels": [
       "Manager"
     ],
@@ -2440,7 +2286,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Housekeeping (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Supervisor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -2458,7 +2304,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HTML/CSS (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2474,7 +2320,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "HTML5 (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2490,7 +2336,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Human Resources (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -2509,7 +2355,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "IBM DataStage (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Director, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Director",
       "Mid-Professional",
@@ -2526,7 +2372,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "IBM Sterling Order Management System (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2542,7 +2388,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Industrial Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2559,7 +2405,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Informatica (Architecture) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2575,7 +2421,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Informatica (Developer) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2591,7 +2437,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Instrumentation Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -2608,7 +2454,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Interpersonal Communications is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -2627,7 +2473,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Interviewing and Hiring Concepts (U.S.) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Front Line Manager, Manager.",
     "job_levels": [
       "Front Line Manager",
       "Manager"
@@ -2643,7 +2489,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "iOS Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2659,7 +2505,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ITIL (IT Infrastructure Library) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -2677,7 +2523,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java 2 Platform Enterprise Edition 1.4 Fundamental is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Entry-Level, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Mid-Professional",
@@ -2694,7 +2540,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java 8 (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2710,7 +2556,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java Design Patterns (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2726,7 +2572,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java Frameworks (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2742,7 +2588,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java Platform Enterprise Edition 7 (Java EE 7) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2756,7 +2602,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Java Web Services (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Java programming proficiency including OOP, data structures, and modern Java APIs. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2772,7 +2618,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "JavaScript (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring JavaScript programming proficiency for web development roles. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2788,7 +2634,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Jenkins (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2804,7 +2650,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Job Control Language (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2820,7 +2666,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "jQuery (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2836,7 +2682,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Kubernetes (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2852,7 +2698,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Linux Administration (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring administrative skills including organisation, attention to detail, and office software proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2868,7 +2714,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Linux Operating System is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, General Population, Graduate, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "General Population",
@@ -2886,7 +2732,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Linux Programming (General) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring proficiency in Linux system programming, shell scripting, and command-line operations. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2902,7 +2748,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Load Runner (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -2918,7 +2764,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Management Scenarios is a biodata and situational judgment assessment measuring real-world workplace decision-making. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Front Line Manager",
       "Manager",
@@ -2936,7 +2782,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Managerial Scenarios Candidate Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Front Line Manager",
       "Manager",
@@ -2954,7 +2800,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Managerial Scenarios Narrative Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Front Line Manager",
       "Manager",
@@ -2972,7 +2818,7 @@
     "test_type": "B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Managerial Scenarios Profile Report is a biodata and situational judgment assessment measuring real-world workplace decision-making. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Front Line Manager",
       "Manager",
@@ -2990,7 +2836,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manual Testing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3006,7 +2852,7 @@
     "test_type": "A, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manufac. & Indust. - Mechanical & Vigilance 8.0 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3025,7 +2871,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manufac. & Indust. - Safety & Dependability 8.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Industry-normed personality battery for manufacturing and industrial settings measuring safety behaviour predictors with sector-specific norms. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3044,7 +2890,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manufacturing & Industrial - Essential Focus 8.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3063,7 +2909,7 @@
     "test_type": "A, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manufacturing & Industrial - Mechanical Focus 8.0 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3082,7 +2928,7 @@
     "test_type": "A, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Manufacturing & Industrial - Vigilance Focus 8.0 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3101,7 +2947,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Marketing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -3120,7 +2966,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Maven (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3136,7 +2982,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Mechanical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -3153,7 +2999,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Mechatronics Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -3170,7 +3016,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Medical Terminology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge test assessing familiarity with clinical and medical vocabulary required in healthcare administration roles. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -3187,7 +3033,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Metallurgical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -3206,7 +3052,7 @@
     "test_type": "D",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MFS 360 Enterprise Leadership Report is a development and 360 assessment providing feedback for professional growth and coaching. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -3219,7 +3065,7 @@
     "test_type": "D",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MFS 360 UCF Group Report is a development and 360 assessment providing feedback for professional growth and coaching.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -3232,7 +3078,7 @@
     "test_type": "D",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MFS 360 UCF Performance Potential Dev Tips Report is a development and 360 assessment providing feedback for professional growth and coaching.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -3245,7 +3091,7 @@
     "test_type": "D",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MFS 360 UCF Standard Report is a development and 360 assessment providing feedback for professional growth and coaching.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -3258,7 +3104,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Micro Focus Unified Functional Testing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3274,7 +3120,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microservices (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3290,7 +3136,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Dynamics Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3306,7 +3152,7 @@
     "test_type": "K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Excel 365 - Essentials (New) is a knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Simulation-based assessment of Microsoft Excel skills including formulas, pivot tables, data analysis, and spreadsheet management. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -3321,7 +3167,7 @@
     "test_type": "K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Excel 365 (New) is a knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Simulation-based assessment of Microsoft Excel skills including formulas, pivot tables, data analysis, and spreadsheet management. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -3336,7 +3182,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Microsoft Outlook 2013 (adaptive) is a knowledge and skills assessment measuring specific technical or domain knowledge. Simulation-based assessment of Microsoft Outlook skills including email management, calendar scheduling, and task organisation. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3352,7 +3198,7 @@
     "test_type": "K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft PowerPoint 365 - Essentials (New) is a knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Simulation-based assessment of Microsoft PowerPoint skills including presentation design and slide management. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -3367,7 +3213,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft SQL Server 2014 Programming is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3381,7 +3227,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Windows Server 2012 Administration is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring administrative skills including organisation, attention to detail, and office software proficiency. Target audience: Director, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Director",
       "Mid-Professional",
@@ -3396,7 +3242,7 @@
     "test_type": "K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Word 365 - Essentials (New) is a knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Simulation-based assessment of Microsoft Word skills including document formatting, styles, mail merge, and editing. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -3411,7 +3257,7 @@
     "test_type": "S, K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Microsoft Word 365 (New) is a simulation assessment replicating real job tasks and workplace situations and knowledge and skills assessment measuring specific technical or domain knowledge. Simulation-based assessment of Microsoft Word skills including document formatting, styles, mail merge, and editing. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -3426,7 +3272,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Mineral Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -3445,7 +3291,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Mining Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -3464,7 +3310,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Mobility (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3480,7 +3326,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Molecular Biology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -3497,7 +3343,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MongoDB (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3513,7 +3359,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Motivation Questionnaire MQM5 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures what motivates and engages an individual at work across 18 motivational dimensions tied to sales and performance behaviours. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3537,7 +3383,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MQ Candidate Motivation Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures what motivates and engages an individual at work across 18 motivational dimensions tied to sales and performance behaviours. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3561,7 +3407,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MQ Employee Motivation Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures what motivates and engages an individual at work across 18 motivational dimensions tied to sales and performance behaviours. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3585,7 +3431,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MQ Motivation Report Pack is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures what motivates and engages an individual at work across 18 motivational dimensions tied to sales and performance behaviours. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3609,7 +3455,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MQ Profile is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures what motivates and engages an individual at work across 18 motivational dimensions tied to sales and performance behaviours. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3633,7 +3479,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS Access (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3653,7 +3499,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS Excel (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3673,7 +3519,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS Office Basic Computer Literacy (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -3690,7 +3536,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS Office Basic Computer Literacy (Sim) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3710,7 +3556,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS PowerPoint (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Graduate, Manager, Mid-Professional.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -3731,7 +3577,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MS Word (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -3751,7 +3597,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "MuleSoft Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3767,7 +3613,7 @@
     "test_type": "A, K, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Multitasking Ability is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3788,7 +3634,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Networking and Implementation (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring understanding of networking protocols, TCP/IP, architecture, and infrastructure implementation. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3804,7 +3650,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Node.js (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring JavaScript programming proficiency for web development roles. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -3820,7 +3666,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Nursing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -3839,7 +3685,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Occupational Personality Questionnaire OPQ32r is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures 32 workplace behaviour dimensions including leadership style, influencing, and thinking style. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -3862,7 +3708,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Operations Management (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -3880,7 +3726,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Candidate Plus Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -3903,7 +3749,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Candidate Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -3916,7 +3762,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Emotional Intelligence Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -3939,7 +3785,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Leadership Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies. Target audience: Director, Executive, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Director",
       "Executive",
@@ -3958,7 +3804,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Manager Plus Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -3979,7 +3825,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Manager Plus Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -4003,7 +3849,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Maximising your Learning Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4026,7 +3872,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ MQ Sales Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results in a sales-specific frame highlighting behaviours linked to sales effectiveness. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4049,7 +3895,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Premium Plus Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4072,7 +3918,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Premium Plus Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -4096,7 +3942,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Profile Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4119,7 +3965,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Team Impact Group Development Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4140,7 +3986,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Team Impact Individual Development Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4163,7 +4009,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Team Impact Selection Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4186,7 +4032,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Team Types & Leadership Styles Profile is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4209,7 +4055,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Team Types and Leadership Styles Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Interprets OPQ32r results through a leadership lens, benchmarking candidates against leadership competencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4232,7 +4078,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ UCF Development Action Planner Report 1.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4255,7 +4101,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ UCF Development Action Planner Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4278,7 +4124,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Universal Competency Report 1.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Translates OPQ32r personality data into a Universal Competency Framework report for selection and development. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4301,7 +4147,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ Universal Competency Report 2.0 is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Translates OPQ32r personality data into a Universal Competency Framework report for selection and development. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4324,7 +4170,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ User and Managers Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4347,7 +4193,7 @@
     "test_type": "P, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "OPQ User Report is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies and simulation assessment replicating real job tasks and workplace situations. Target audience: Director, Executive, Front Line Manager, General Population, Graduate.",
     "job_levels": [
       "Director",
       "Executive",
@@ -4370,7 +4216,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Oracle DBA (Advanced Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4386,7 +4232,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Oracle DBA (Entry Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4402,7 +4248,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Oracle PL/SQL (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4418,7 +4264,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Oracle WebLogic Server (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -4435,7 +4281,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Organic Chemistry (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4452,7 +4298,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Paint Technology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4469,7 +4315,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pediatrics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4486,7 +4332,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pega Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4502,7 +4348,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Perl (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4518,7 +4364,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Petrochemical Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4535,7 +4381,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Petroleum Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4552,7 +4398,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pharmaceutical Analysis (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4569,7 +4415,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pharmaceutical Chemistry (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4586,7 +4432,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pharmaceutical Science (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4603,7 +4449,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pharmaceutics (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4620,7 +4466,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Pharmacology (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4637,7 +4483,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "PHP (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4653,7 +4499,7 @@
     "test_type": "C, A, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "PJM Development Report is a competency assessment evaluating job-relevant skills against a competency framework and ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Graduate, Manager, Mid-Professional.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -4670,7 +4516,7 @@
     "test_type": "A, C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "PJM Selection Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Manager, Mid-Professional.",
     "job_levels": [
       "Manager",
       "Mid-Professional"
@@ -4686,7 +4532,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Polymer Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4703,7 +4549,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Power Electronics and Drives (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4720,7 +4566,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Power System Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4737,7 +4583,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Prism (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4753,7 +4599,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Production and Industrial Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4770,7 +4616,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Production Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -4787,7 +4633,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Programming Concepts is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4803,7 +4649,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Project Management (2013) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4819,7 +4665,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Proofreading v1 is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Mid-Professional.",
     "job_levels": [
       "Entry-Level",
       "Mid-Professional"
@@ -4835,7 +4681,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Python (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring Python programming proficiency including syntax, libraries, and scripting. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4851,7 +4697,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "R Programming (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4867,7 +4713,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "ReactJS (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring JavaScript programming proficiency for web development roles. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -4883,7 +4729,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Reading Comprehension - English v1 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -4902,7 +4748,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Reading Comprehension - Spanish v1 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -4921,7 +4767,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Reading Comprehension v2 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -4940,7 +4786,7 @@
     "test_type": "C",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "RemoteWorkQ is a competency assessment evaluating job-relevant skills against a competency framework. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -4964,7 +4810,7 @@
     "test_type": "C",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "RemoteWorkQ Manager Report is a competency assessment evaluating job-relevant skills against a competency framework. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -4988,7 +4834,7 @@
     "test_type": "C",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "RemoteWorkQ Participant Report is a competency assessment evaluating job-relevant skills against a competency framework. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -5012,7 +4858,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "RESTful Web Services (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5028,7 +4874,7 @@
     "test_type": "B, K, S, A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Retail Sales and Service Simulation is a biodata and situational judgment assessment measuring real-world workplace decision-making and knowledge and skills assessment measuring specific technical or domain knowledge and simulation assessment replicating real job tasks and workplace situations and ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Behavioural and situational assessment for retail and sales associate roles measuring customer orientation and service skills. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5043,7 +4889,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Reviewing Forms - US (R1) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Mid-Professional.",
     "job_levels": [
       "Entry-Level",
       "Mid-Professional"
@@ -5059,7 +4905,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Ruby (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5075,7 +4921,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Ruby on Rails (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5091,7 +4937,7 @@
     "test_type": "S, B",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales & Service Phone Simulation is a simulation assessment replicating real job tasks and workplace situations and biodata and situational judgment assessment measuring real-world workplace decision-making. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5101,27 +4947,12 @@
     "duration": "Approximate Completion Time in minutes = 20"
   },
   {
-    "name": "Sales & Service Phone Solution",
-    "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-and-service-phone-solution/",
-    "test_type": "B, P, S",
-    "remote_testing": true,
-    "adaptive": false,
-    "description": "",
-    "job_levels": [
-      "Entry-Level"
-    ],
-    "languages": [
-      "English International"
-    ],
-    "duration": "Approximate Completion Time in minutes = 35"
-  },
-  {
     "name": "Sales Interview Guide",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-interview-guide/",
     "test_type": "P, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Interview Guide is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -5142,7 +4973,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Profiler Cards is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -5161,7 +4992,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Transformation 1.0 - Individual Contributor is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of success in modern, digital-first sales environments for individual contributors and managers. Target audience: Front Line Manager, General Population, Graduate, Manager, Mid-Professional.",
     "job_levels": [
       "Front Line Manager",
       "General Population",
@@ -5182,7 +5013,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Transformation 2.0 - Individual Contributor is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of success in modern, digital-first sales environments for individual contributors and managers. Target audience: Front Line Manager, General Population, Graduate, Manager, Mid-Professional.",
     "job_levels": [
       "Front Line Manager",
       "General Population",
@@ -5203,7 +5034,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Transformation Report 1.0 - Sales Manager is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of success in modern, digital-first sales environments for individual contributors and managers. Target audience: Director, Executive, Front Line Manager, Manager, Supervisor.",
     "job_levels": [
       "Director",
       "Executive",
@@ -5222,7 +5053,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Sales Transformation Report 2.0 - Sales Manager is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Measures personality predictors of success in modern, digital-first sales environments for individual contributors and managers. Target audience: Director, Executive, Front Line Manager, Manager, Supervisor.",
     "job_levels": [
       "Director",
       "Executive",
@@ -5241,7 +5072,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Salesforce Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5257,7 +5088,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP ABAP (Advanced Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5273,7 +5104,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP ABAP (Intermediate Level) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5289,7 +5120,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP Basis (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5305,7 +5136,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP Business Objects WebI (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5321,7 +5152,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP BW (Business Warehouse) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5337,7 +5168,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP HCM (Human Capital Management) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5353,7 +5184,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP Hybris (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5369,7 +5200,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP Materials Management (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5385,7 +5216,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SAP SD (Sales and Distribution) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5401,7 +5232,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Search Engine Optimization (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Mid-Professional",
@@ -5418,7 +5249,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Selenium (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5434,7 +5265,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Shell Scripting (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5450,7 +5281,7 @@
     "test_type": "A, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SHL Verify Interactive - Inductive Reasoning is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and simulation assessment replicating real job tasks and workplace situations. Measures ability to identify patterns and rules from abstract visual information. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -5463,12 +5294,12 @@
     "duration": "Approximate Completion Time in minutes = 20"
   },
   {
-    "name": "SHL Verify Interactive \u2013 Deductive Reasoning",
+    "name": "SHL Verify Interactive – Deductive Reasoning",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
     "test_type": "A, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SHL Verify Interactive – Deductive Reasoning is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and simulation assessment replicating real job tasks and workplace situations. Measures ability to apply rules and draw logical deductions. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -5481,12 +5312,12 @@
     "duration": "Approximate Completion Time in minutes = 20"
   },
   {
-    "name": "SHL Verify Interactive \u2013 Numerical Reasoning",
+    "name": "SHL Verify Interactive – Numerical Reasoning",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
     "test_type": "A, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SHL Verify Interactive – Numerical Reasoning is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and simulation assessment replicating real job tasks and workplace situations. Measures ability to interpret numerical data, charts, and statistical information. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -5504,7 +5335,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SHL Verify Interactive G+ is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -5522,7 +5353,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "SHL Verify Interactive Numerical Calculation is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Measures ability to interpret numerical data, charts, and statistical information. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5537,7 +5368,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Siebel Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5553,7 +5384,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Smart Interview Live is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Front Line Manager, General Population, Graduate, Manager.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -5575,7 +5406,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Smart Interview Live Coding is a knowledge and skills assessment measuring specific technical or domain knowledge. Adaptive live-coding interview platform enabling custom technical exercises in multiple programming languages including Java, Python, and SQL. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -5594,7 +5425,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Smart Interview On Demand is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Entry-Level, Front Line Manager, General Population, Graduate, Manager.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -5616,7 +5447,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Social Media (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -5636,7 +5467,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Software Business Analysis is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5652,7 +5483,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SonarQube (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5668,7 +5499,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Spelling (U.S.) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5683,7 +5514,7 @@
     "test_type": "A, K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Split Screen Typing Test - Form 1 is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning and knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5698,7 +5529,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Spring (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5714,7 +5545,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SQL (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5730,7 +5561,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SQL Server (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5746,7 +5577,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SQL Server Analysis Services (SSAS) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5762,7 +5593,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SQL Server Integration Services (SSIS) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5778,7 +5609,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SQL Server Reporting Services (SSRS) (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge assessment measuring SQL query writing, database design, and data manipulation proficiency. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5794,7 +5625,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Statistical Analysis System (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5810,7 +5641,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Struts (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5826,7 +5657,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken English (AUS) is a simulation assessment replicating real job tasks and workplace situations. Automated spoken English screen evaluating accent clarity, fluency, and comprehension for contact centre roles. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5841,7 +5672,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken English (Indian Accent) (New) is a simulation assessment replicating real job tasks and workplace situations. Automated spoken English screen evaluating accent clarity, fluency, and comprehension for contact centre roles. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5856,7 +5687,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken English (U.K.) is a simulation assessment replicating real job tasks and workplace situations. Automated spoken English screen evaluating accent clarity, fluency, and comprehension for contact centre roles. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5871,7 +5702,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken English (US) (New) is a simulation assessment replicating real job tasks and workplace situations. Automated spoken English screen evaluating accent clarity, fluency, and comprehension for contact centre roles. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5886,7 +5717,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken French (Canadian) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5901,7 +5732,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken French (European) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5916,7 +5747,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken Spanish (Castilian) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5931,7 +5762,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "SVAR - Spoken Spanish (North American) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -5946,7 +5777,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Swing (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5962,7 +5793,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Tableau (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -5978,7 +5809,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Telecommunications Engineering (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -5997,7 +5828,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Teradata Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6013,7 +5844,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Time Management (U.S.) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -6032,7 +5863,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Training Development is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Front Line Manager, Manager.",
     "job_levels": [
       "Front Line Manager",
       "Manager"
@@ -6048,7 +5879,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Typing (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6063,7 +5894,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "UiPath RPA Development (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6079,7 +5910,7 @@
     "test_type": "C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Universal Competency Framework Interview Guide is a competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6098,7 +5929,7 @@
     "test_type": "C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Universal Competency Framework Job profiling guide is a competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6117,7 +5948,7 @@
     "test_type": "C, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Universal Competency Framework Profiler Cards (44) is a competency assessment evaluating job-relevant skills against a competency framework and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, Manager.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6136,7 +5967,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "UNIX (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6152,7 +5983,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "VB.NET (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6168,7 +5999,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - Deductive Reasoning is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Measures ability to apply rules and draw logical deductions. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6192,7 +6023,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - Following Instructions is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6207,7 +6038,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Verify - G+ is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6231,7 +6062,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - General Ability Screen is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6246,7 +6077,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - Inductive Reasoning (2014) is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Measures ability to identify patterns and rules from abstract visual information. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6270,7 +6101,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Verify - Numerical Ability is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Measures ability to interpret numerical data, charts, and statistical information. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6294,7 +6125,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - Technical Checking - Next Generation is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6307,7 +6138,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": true,
-    "description": "",
+    "description": "Verify - Verbal Ability - Next Generation is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Measures ability to evaluate verbal arguments and draw logical conclusions from written information. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6331,7 +6162,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify - Working with Information is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6346,7 +6177,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify G+ - Ability Test Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -6359,7 +6190,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify G+ - Candidate Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -6372,7 +6203,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify Interactive Ability Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -6385,7 +6216,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify Interactive G+ Candidate Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration.",
     "job_levels": [],
     "languages": [
       "English International"
@@ -6398,7 +6229,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify Interactive G+ Report is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Adaptive reasoning battery covering inductive, numerical, and deductive reasoning in a single administration. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -6416,7 +6247,7 @@
     "test_type": "A",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Verify Interactive Process Monitoring is a ability and aptitude assessment measuring cognitive reasoning including numerical, verbal, and inductive reasoning. Target audience: Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Graduate",
       "Manager",
@@ -6434,7 +6265,7 @@
     "test_type": "P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Virtual Assessment and Development Centers is a personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6456,7 +6287,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Visual Basic for Applications (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6472,7 +6303,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Visual Comparison - UK is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6487,7 +6318,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Visual Comparison - US is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6502,7 +6333,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "VLSI and Embedded Systems (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6518,7 +6349,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "What Is The Value - US is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level.",
     "job_levels": [
       "Entry-Level"
     ],
@@ -6533,7 +6364,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Workplace Administration Skills (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Assessment measuring administrative skills including organisation, attention to detail, and office software proficiency. Target audience: Manager, Mid-Professional, Professional Individual Contributor, Supervisor.",
     "job_levels": [
       "Manager",
       "Mid-Professional",
@@ -6551,7 +6382,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Workplace Health and Safety (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Knowledge test measuring understanding of health, safety, and workplace regulatory requirements. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -6571,7 +6402,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "WriteX - Email Writing (Customer Service) (New) is a simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -6591,7 +6422,7 @@
     "test_type": "S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "WriteX - Email Writing (Managerial) (New) is a simulation assessment replicating real job tasks and workplace situations. Assessment measuring managerial potential and effectiveness including people leadership, delegation, and decision-making. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -6611,7 +6442,7 @@
     "test_type": "B, S",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "WriteX - Email Writing (Sales) (New) is a biodata and situational judgment assessment measuring real-world workplace decision-making and simulation assessment replicating real job tasks and workplace situations. Target audience: Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Graduate",
@@ -6631,7 +6462,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Written English v1 is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -6650,7 +6481,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Written Spanish is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Entry-Level",
       "Front Line Manager",
@@ -6667,7 +6498,7 @@
     "test_type": "K",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "Zabbix (New) is a knowledge and skills assessment measuring specific technical or domain knowledge. Target audience: Mid-Professional, Professional Individual Contributor.",
     "job_levels": [
       "Mid-Professional",
       "Professional Individual Contributor"
@@ -6683,7 +6514,7 @@
     "test_type": "D",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "360 Digital Report is a development and 360 assessment providing feedback for professional growth and coaching. Target audience: Director, Entry-Level, Executive, Front Line Manager, General Population.",
     "job_levels": [
       "Director",
       "Entry-Level",
@@ -6699,12 +6530,12 @@
     "duration": ""
   },
   {
-    "name": "360\u00b0 Multi-Rater Feedback System (MFS)",
+    "name": "360° Multi-Rater Feedback System (MFS)",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/360-multi-rater-feedback-system-mfs/",
     "test_type": "D, P",
     "remote_testing": true,
     "adaptive": false,
-    "description": "",
+    "description": "360° Multi-Rater Feedback System (MFS) is a development and 360 assessment providing feedback for professional growth and coaching and personality and behavior assessment measuring workplace behavioural style, motivations, and interpersonal tendencies. Target audience: Director, Executive, Front Line Manager, Manager, Mid-Professional.",
     "job_levels": [
       "Director",
       "Executive",

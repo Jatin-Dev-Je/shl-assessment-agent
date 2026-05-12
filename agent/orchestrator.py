@@ -116,13 +116,33 @@ def _extract_assessment_names_for_compare(
         if msg.get("role") == "user":
             latest = msg.get("content", "")
             break
-    quoted = re.findall(r'["]([^\"]+)["]|\'([^\']+)\'', latest)
+
+    # 1. Quoted strings — most reliable ("OPQ32r" and "Verify G+")
+    quoted = re.findall(r'["“]([^"”]+)["”]|\'([^\']+)\'', latest)
     if quoted:
         return [q[0] or q[1] for q in quoted if q[0] or q[1]]
-    tokens = re.findall(r'\b[A-Z][A-Za-z0-9+\-\.]*(?:\s[A-Z][A-Za-z0-9+\-\.]*)*\b', latest)
-    if tokens:
-        return tokens[:3]
-    return []
+
+    # 2. Capitalised multi-word phrases: OPQ32r, Verify G+, MQ, GSA …
+    cap_tokens = re.findall(
+        r'\b[A-Z][A-Za-z0-9+\-\.]*(?:\s[A-Z][A-Za-z0-9+\-\.]*)*\b', latest
+    )
+
+    # 3. All-caps acronyms the user may write in lowercase context: opq, mq, gsa
+    #    Matches 2-5 letter sequences that look like SHL product codes.
+    acronyms = re.findall(r'\b([A-Za-z]{2,5}[0-9]{0,2}[a-z]?)\b', latest)
+    # Only keep tokens that are likely assessment names (mix of caps or short)
+    acronyms = [a for a in acronyms if a.upper() == a or (len(a) <= 6 and a[0].isupper())]
+
+    # Deduplicate preserving order; cap_tokens take priority
+    seen: set[str] = set()
+    result: list[str] = []
+    for name in cap_tokens + acronyms:
+        key = name.lower()
+        if key not in seen:
+            seen.add(key)
+            result.append(name)
+
+    return result[:4]
 
 
 # ── Strip sentinel from messages before sending to Groq ──────────────────────

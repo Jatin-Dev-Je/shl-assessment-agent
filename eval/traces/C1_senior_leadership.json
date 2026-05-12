@@ -1,0 +1,14 @@
+{
+  "trace_id": "C1_senior_leadership",
+  "persona": "You are an HR lead hiring for senior executive positions.",
+  "facts": {
+    "role": "CXO / Director-level leadership",
+    "seniority": "Executive, 15+ years experience",
+    "purpose": "Selection against leadership benchmark"
+  },
+  "expected_assessments": [
+    "Occupational Personality Questionnaire OPQ32r",
+    "OPQ Universal Competency Report 2.0",
+    "OPQ Leadership Report"
+  ]
+}
